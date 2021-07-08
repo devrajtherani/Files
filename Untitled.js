@@ -1,7 +1,7 @@
 var myVar;
 
 function myFunction(){
-    myVar = setTimeout(showPage, 0);
+    myVar = setTimeout(showPage, 3500);
 }
 function showPage(){
     document.getElementById("loader-wrapper") .style.display = "none";
