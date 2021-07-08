@@ -244,6 +244,6 @@
     from{ bottom: -100px; opacity: 0;}
     to{ bottom: 0; opacity: 1;}
 }
-.fas:hover{
+.fa-redo:hover{
     animation : spin 2s linear infinite;
 }
