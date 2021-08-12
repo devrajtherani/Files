@@ -24,3 +24,4 @@ function black(){
     document.getElementById("circle1").style.display = "block";
     document.getElementById("circle2").style.display = "none";
 }
+
