@@ -9,6 +9,7 @@ function myFunction(){
     document.getElementById("wassap1").style.display = "none";
     document.getElementById("post1").style.display = "none";
     document.getElementById("tweet1").style.display = "none";
+    document.getElementById("mail1").style.display = "none";
 }
 function showPage(){
     document.getElementById("loader-wrapper") .style.display = "none";
@@ -24,9 +25,11 @@ function white(){
     document.getElementById("wassap").style.display = "none";
     document.getElementById("post").style.display = "none";
     document.getElementById("tweet").style.display = "none";
+    document.getElementById("mail").style.display = "none";
     document.getElementById("wassap1").style.display = "block";
     document.getElementById("post1").style.display = "block";
     document.getElementById("tweet1").style.display = "block";
+    document.getElementById("mail1").style.display = "block";
 }
 function black(){
     document.body.style.background = "black";
@@ -38,7 +41,9 @@ function black(){
     document.getElementById("wassap1").style.display = "none";
     document.getElementById("post1").style.display = "none";
     document.getElementById("tweet1").style.display = "none";
+    document.getElementById("mail1").style.display = "none";
     document.getElementById("wassap").style.display = "block";
     document.getElementById("post").style.display = "block";
     document.getElementById("tweet").style.display = "block";
+    document.getElementById("mail").style.display = "block";
 }
