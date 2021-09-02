@@ -307,7 +307,7 @@ ul{
 .fa-arrow-alt-circle-down{
     color: #ffff00;
 }
-.fab {
+.fab, #share .fas {
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -330,10 +330,16 @@ ul{
     bottom: 3vh;
     position: fixed;
 }
-#wassap, #post, #tweet{
+#mail, #mail1{
+    background: none;
+}
+#mail:hover, #mail1:hover{
+    color: #87cefa;
+}
+#wassap, #post, #tweet, #mail{
     color: #ffffff;
 }
-#wassap1, #post1, #tweet1{
+#wassap1, #post1, #tweet1, #mail1{
     color: #000000;
 }
 a{
