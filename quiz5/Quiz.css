@@ -330,6 +330,11 @@ ul{
     bottom: 3vh;
     position: fixed;
 }
+#time{
+    top: 3vh;
+    position: fixed;
+    left: 48vw;
+}
 #mail, #mail1{
     background: none;
 }
