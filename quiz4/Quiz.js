@@ -18,8 +18,6 @@ function white(){
     document.getElementById("text").style.color = "black";
     document.getElementById("circle2").style.display = "block";
     document.getElementById("circle1").style.display = "none";
-    document.getElementById("arrow1").style.color = "black";
-    document.getElementById("arrow2").style.color = "black";
 }
 function black(){
     document.body.style.background = "black";
@@ -27,7 +25,5 @@ function black(){
     document.getElementById("text").style.color = "white";
     document.getElementById("circle1").style.display = "block";
     document.getElementById("circle2").style.display = "none";
-    document.getElementById("arrow1").style.color = "white";
-    document.getElementById("arrow2").style.color = "white";
 }
 
