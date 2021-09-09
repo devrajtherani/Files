@@ -294,3 +294,52 @@ ul{
   body{
       background-color: #111111;
   }
+#arrow1, #arrow2{
+    color: white;
+    background-color: #0000ff;
+    top: 48vh;
+    position: fixed;
+    padding: 12px;
+    font-size: 18px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    transition-duration: 0.5s;
+}
+#arrow1:hover, #arrow2:hover{
+    -webkit-animation: spin 1.5s linear 1;
+    animation: spin 0.5s linear 1;
+}
+@-webkit-keyframes spin{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spin{
+    0%{
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+#arrow1{
+    left: 0;
+}
+#arrow2{
+    right: 0;
+}
