@@ -291,11 +291,11 @@ ul{
   }
   body{background-color: #000000;
   }
-  #circle1{
+  #circle1, #copy1, #copied1{
     cursor: pointer;
     color: white;
   }
-  #circle2{
+  #circle2, #copy2, #copied2{
     cursor: pointer;
     color: black;
   }
@@ -400,15 +400,14 @@ a{
 }
 #arrow2{
     right: 0;
+}
+#copy1, #copy2{
     cursor: pointer;
 }
-#copy{
-    cursor: pointer;
-}
-#copy:hover{
+#copy1:hover, #copy2:hover{
     color: #0000ff;
 }
-#copied{
+#copied1, #copied2{
     color: #ffff00;
 }
 
