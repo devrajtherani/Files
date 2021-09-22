@@ -1,4 +1,6 @@
 var myVar;
+var reappear;
+var reappeara;
 
 function myFunction(){
     myVar = setTimeout(showPage, 3500);
@@ -12,6 +14,9 @@ function myFunction(){
     document.getElementById("post1").style.display = "none";
     document.getElementById("tweet1").style.display = "none";
     document.getElementById("mail1").style.display = "none";
+    document.getElementById("copy2").style.display = "none";
+    document.getElementById("copied1").style.display = "none";
+    document.getElementById("copied2").style.display = "none";
 }
 var myVar = setInterval(myTimer, 1000)
 function myTimer(){
@@ -38,6 +43,10 @@ function white(){
     document.getElementById("post1").style.display = "block";
     document.getElementById("tweet1").style.display = "block";
     document.getElementById("mail1").style.display = "block";
+    document.getElementById("copy1").style.display = "none";
+    document.getElementById("copy2").style.display = "block";
+    document.getElementById("copied1").style.display = "none";
+    document.getElementById("copied2").style.display = "none";
 }
 function black(){
     document.body.style.background = "black";
@@ -55,4 +64,30 @@ function black(){
     document.getElementById("post").style.display = "block";
     document.getElementById("tweet").style.display = "block";
     document.getElementById("mail").style.display = "block";
+    document.getElementById("copy1").style.display = "block";
+    document.getElementById("copy2").style.display = "none";
+    document.getElementById("copied1").style.display = "none";
+    document.getElementById("copied2").style.display = "none";
+}
+function copyToClipboard(text) {
+var inputc = document.body.appendChild(document.createElement("input"));
+inputc.value = window.location.href;
+inputc.focus();
+inputc.select();
+document.execCommand('copy');
+inputc.parentNode.removeChild(inputc);
+document.getElementById("copy1").style.display = "none";
+document.getElementById("copied1").style.display = "block";
+reappear = setTimeout(black, 900);
+}
+function copyToClip(text) {
+var inputc = document.body.appendChild(document.createElement("input"));
+inputc.value = window.location.href;
+inputc.focus();
+inputc.select();
+document.execCommand('copy');
+inputc.parentNode.removeChild(inputc);
+document.getElementById("copy2").style.display = "none";
+document.getElementById("copied2").style.display = "block";
+reappeara = setTimeout(white, 900);
 }
