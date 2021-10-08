@@ -9,7 +9,6 @@ function myFunction(){
     document.getElementById("text").style.color = "white";
     document.getElementById("text1").style.color = "white";
     document.getElementById("demo").style.color = "white";
-    document.getElementById("arrow1").style.color = "white";
     document.getElementById("wassap1").style.display = "none";
     document.getElementById("post1").style.display = "none";
     document.getElementById("tweet1").style.display = "none";
